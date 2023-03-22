@@ -413,7 +413,7 @@ noscript .localization-selector.link {
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: white;
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -466,7 +466,11 @@ noscript .localization-selector.link {
   max-width: 20rem;
 }
 
+.copyright__content {
+  color: #fff;
+}
 .copyright__content a {
+  color: #fff;
   color: currentColor;
   text-decoration: none;
 }
