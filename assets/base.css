@@ -2957,3 +2957,19 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+.jdgm-carousel-wrapper {
+  text-align: center;
+}
+
+.jdgm-carousel-wrapper .jdgm-carousel-title-and-link {
+  border-radius: 20px;
+}
+
+.jdgm-carousel-wrapper .jdgm-carousel-title {
+  border-radius: 20px;
+}
+
+.jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {
+  border-radius: 20px;
+}
