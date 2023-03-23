@@ -2973,3 +2973,7 @@ details-disclosure > details {
 .jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {
   border-radius: 20px;
 }
+
+.jdgm-write-rev-link {
+  border-radius: 10px;
+}
