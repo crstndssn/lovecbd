@@ -2977,3 +2977,17 @@ details-disclosure > details {
 .jdgm-write-rev-link {
   border-radius: 10px !important;
 }
+
+.accordion .icon-accordion {
+  fill: #000;
+}
+
+.shopify-payment-button__button,.shopify-payment-button__button--unbranded {
+  background-color: #FD3D67 !important;
+  color: #ffffff !important;
+  border-color: #FD3D67 !important;
+}
+
+.shopify-payment-button__button {
+  border-color: #FD3D67 !important;
+}
