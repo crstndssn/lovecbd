@@ -2991,3 +2991,8 @@ details-disclosure > details {
 .shopify-payment-button__button {
   border-color: #FD3D67 !important;
 }
+
+.color-background-1 {
+  --color-button: #FD3D67;
+  --color-button-text: #FD3D67;
+}
