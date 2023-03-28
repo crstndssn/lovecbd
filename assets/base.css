@@ -3031,3 +3031,22 @@ details-disclosure > details {
 .jdgm-carousel__item-wrapper {
   color: #000;
 }
+
+.newsletter__wrapper {
+  color: #fff !important;
+}
+
+.title__newsletter {
+  color: #fff !important;
+}
+
+
+.newsletter__wrapper h1 h2 {
+  color: #fff !important;
+}
+
+.image-with-text__content--gradient {
+  box-shadow:  0px 0px 20px 0px #FD3D67, 0 6px 20px 0px #9747FF !important;
+}
+
+      
