@@ -10,7 +10,7 @@
     "colors_background_1": "#ffffff",
     "gradient_background_1": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 98.201%)",
     "colors_background_2": "#ffffff",
-    "gradient_background_2": "radial-gradient(rgba(76, 19, 165, 1) 5%, rgba(76, 19, 165, 1) 22%, rgba(253, 61, 103, 1) 98%)",
+    "gradient_background_2": "radial-gradient(rgba(253, 61, 103, 1) 5%, rgba(253, 61, 103, 1) 22%, rgba(76, 19, 165, 1) 100%)",
     "type_header_font": "poppins_n4",
     "heading_scale": 130,
     "type_body_font": "poppins_n4",
