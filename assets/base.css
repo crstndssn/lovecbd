@@ -3008,3 +3008,11 @@ details-disclosure > details {
 .jdgm-carousel-wrapper .jdgm-carousel-title-and-link {
   border: 1px solid #9747FF !important;
 }
+
+.collection {
+  background: #F3F3F3;
+}
+
+.card--card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
