@@ -370,7 +370,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/free_delivery_6e110313-cedd-42f1-8e4d-6d568feda9bf.png",
+            "image": "shopify:\/\/shop_images\/shioing.png",
             "title": "Free shipping",
             "text": "",
             "link_label": "",
@@ -380,7 +380,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/customer_service_06ec6b98-aed5-4afb-a37d-d69945fac7dc.png",
+            "image": "shopify:\/\/shop_images\/serrvice.png",
             "title": "Customer service",
             "text": "",
             "link_label": "",
@@ -390,7 +390,7 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/credit-card_977187f8-1cf8-4ba1-84ae-43d372907b98.png",
+            "image": "shopify:\/\/shop_images\/Frame_2-1.png",
             "title": "Secure payments",
             "text": "",
             "link_label": "",
@@ -400,7 +400,7 @@
         "column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/certify_f6c36264-17bf-4eca-9ee4-0af54cee7adb.png",
+            "image": "shopify:\/\/shop_images\/Frame_2-2.png",
             "title": "Certified products",
             "text": "",
             "link_label": "",
