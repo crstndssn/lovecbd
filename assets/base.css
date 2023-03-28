@@ -3016,3 +3016,18 @@ details-disclosure > details {
 .card--card {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.title__section {
+  width: 100%;
+  text-align: center;
+}
+
+.title__section strong {
+  color: #9747FF;
+  font-weight: 400;
+}
+
+
+.jdgm-carousel__item-wrapper {
+  color: #000;
+}

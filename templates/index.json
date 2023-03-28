@@ -100,7 +100,7 @@
         "h2 {width: 100%; margin-top: 100px; text-align: center; margin-bottom: 5rem;}"
       ],
       "settings": {
-        "title": "Choose by product type",
+        "title": "<p>Choose by <strong>product <\/strong>type<\/p>",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -118,7 +118,7 @@
         "h2 {text-align: center; margin-bottom: 7rem;}"
       ],
       "settings": {
-        "title": "Featured collection",
+        "title": "<p>Featured <strong>collection<\/strong><\/p>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -281,7 +281,7 @@
         "h2 {text-align: center; margin-bottom: 7rem;}"
       ],
       "settings": {
-        "title": "Product of the month",
+        "title": "<p>Product of the <strong>month<\/strong><\/p>",
         "product": "koko-gummies",
         "color_scheme": "background-1",
         "secondary_background": false,
@@ -296,7 +296,7 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "Featured collection",
+        "title": "<p>Featured collection<\/p>",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -350,7 +350,7 @@
         "h2 {text-align: center; width: 100%; margin-bottom: 3rem;}"
       ],
       "settings": {
-        "heading": "Blog posts",
+        "heading": "<p>Blog <strong>posts<\/strong><\/p>",
         "heading_size": "h2",
         "blog": "noticias",
         "post_limit": 3,
