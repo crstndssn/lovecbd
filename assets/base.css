@@ -3085,3 +3085,14 @@ details-disclosure > details {
   font-size: 1.5rem;
   font-weight: 300;
 }
+
+.contact__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  border:#FD3D67 2px solid;
+  color: #FD3D67;
+}
