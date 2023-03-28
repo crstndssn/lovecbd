@@ -352,7 +352,7 @@
       "settings": {
         "heading": "<p>Blog <strong>posts<\/strong><\/p>",
         "heading_size": "h2",
-        "blog": "noticias",
+        "blog": "blog",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
