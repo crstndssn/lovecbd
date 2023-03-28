@@ -2963,11 +2963,11 @@ details-disclosure > details {
 }
 
 .jdgm-carousel-wrapper .jdgm-carousel-title-and-link {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .jdgm-carousel-wrapper .jdgm-carousel-title {
-  border-radius: 18px;
+  border-radius: 8px;
 }
 
 .jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {
@@ -3047,6 +3047,30 @@ details-disclosure > details {
 
 .image-with-text__content--gradient {
   box-shadow:  0px 0px 20px 0px #FD3D67, 0 6px 20px 0px #9747FF !important;
+}
+
+.multicolumn__icon {
+  width: 80% !important;
+  height: auto !important;
+}
+
+.multicolumn-card__info {
+  padding-top: 0 !important;
+}
+
+.multicolumn-card__info h4 {
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 750px) {
+  .page-width-multicolumn {
+    padding: 0 10rem;
+  }
+}
+
+
+.media--adapt {
+  padding-bottom: 90% !important;
 }
 
       
