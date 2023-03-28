@@ -371,6 +371,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/shioing.png",
+            "image__name": "car",
             "title": "Free shipping",
             "text": "",
             "link_label": "",
@@ -381,6 +382,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/serrvice.png",
+            "image__name": "customer-service",
             "title": "Customer service",
             "text": "",
             "link_label": "",
@@ -391,6 +393,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_2-1.png",
+            "image__name": "money",
             "title": "Secure payments",
             "text": "",
             "link_label": "",
@@ -401,6 +404,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_2-2.png",
+            "image__name": "shipping",
             "title": "Certified products",
             "text": "",
             "link_label": "",
