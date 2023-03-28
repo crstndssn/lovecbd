@@ -3073,4 +3073,15 @@ details-disclosure > details {
   padding-bottom: 90% !important;
 }
 
+.newsletter-form__field-wrapper input {
+  border: 2px solid #FFF;
+  background: rgb(255, 255, 255, .2);
+}
+.newsletter-form__field-wrapper label {
+  color: #FFF;
+}
       
+.copyright__content {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
