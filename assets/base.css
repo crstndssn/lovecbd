@@ -2996,3 +2996,15 @@ details-disclosure > details {
   --color-button: #FD3D67;
   --color-button-text: #FD3D67;
 }
+
+.jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {
+  background-color: #fff !important;
+}
+
+.jdgm-carousel-wrapper .jdgm-carousel-title {
+  background-color: #9747FF !important;
+}
+
+.jdgm-carousel-wrapper .jdgm-carousel-title-and-link {
+  border: 1px solid #9747FF !important;
+}
