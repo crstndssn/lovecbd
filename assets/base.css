@@ -3121,13 +3121,13 @@ details-disclosure > details {
 
 
 @media screen and (min-width: 750px) {
-  .section-template--15252271202348__featured-collection-padding  {
-    padding-top: 56px;
-    padding-bottom: 4px;
+  .collection__gray {
+    padding-top: 56px !important;
+    padding-bottom: 4px !important;
   }
 }
 
-.section-template--15252271202348__featured-collection-padding  {
-  padding-top: 42px;
-  padding-bottom: 3px;
+.collection__gray  {
+  padding-top: 42px !important;
+  padding-bottom: 3px !important;
 }
