@@ -518,3 +518,22 @@ noscript .localization-selector.link {
     }
   }
 }
+
+.product__type {
+
+  margin: 7rem 0 3rem 0;
+
+}
+
+.slider-mobile-gutter {
+  margin-bottom: 10rem;
+}
+
+.feature__collection  {
+  padding: 5rem 0 4rem 0;
+  margin: 0;
+}
+
+.collection__title.title-wrapper {
+  margin-bottom: 0;
+}
