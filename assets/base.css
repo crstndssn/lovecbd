@@ -3087,10 +3087,36 @@ details-disclosure > details {
 
 .newsletter-form__field-wrapper input:hover {
   border: none;
+  box-shadow: none;
+}
+
+.newsletter-form__field-wrapper input:hover {
+  border: 2px solid #fff;
+  box-shadow: none;
 }
 
 .field__input:focus {
   border: 2px solid #FFF;
+  box-shadow: none;
+}
+
+.field__input {
+  box-shadow: none;
+}
+.field:active.field:before {
+  box-shadow: 0 0 0 0 !important;
+}
+.field:hover.field:after {
+  box-shadow: 0 0 0 0 !important;
+}
+.field:after {
+  border: 0px;
+  box-shadow: none;
+}
+
+.field__input:focus-visible {
+  border: 2px solid #FFF;
+  box-shadow: none;
 }
       
 .copyright__content {
