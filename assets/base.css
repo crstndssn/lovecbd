@@ -3179,3 +3179,8 @@ details-disclosure > details {
 .jdgm-carousel-item__review-title, .jdgm-carousel-item__reviewer-name {
   font-weight: 500 !important;
 }
+
+.jdgm-carousel--vertical-theme .jdgm-carousel-item__review {
+  text-align: left !important;
+  height: calc(100% - 2em) !important;
+}
