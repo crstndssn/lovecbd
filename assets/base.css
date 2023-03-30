@@ -2967,7 +2967,7 @@ details-disclosure > details {
 }
 
 .jdgm-carousel-wrapper .jdgm-carousel-title {
-  border-radius: 8px;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {
@@ -3156,4 +3156,26 @@ details-disclosure > details {
 .collection__gray  {
   padding-top: 42px !important;
   padding-bottom: 3px !important;
+}
+
+
+/* REVIEWS */
+
+.jdgm-carousel-title {
+  font-weight: 300;
+  padding: 1.5rem 3rem !important;
+}
+
+.jdgm-all-reviews-rating {
+  margin-right: 1rem !important;
+}
+
+.jdgm-carousel-number-of-reviews {
+  text-decoration: none !important;
+  color: #000 !important;
+  font-size: 20px !important;
+}
+
+.jdgm-carousel-item__review-title, .jdgm-carousel-item__reviewer-name {
+  font-weight: 500 !important;
 }
