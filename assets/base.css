@@ -3140,12 +3140,6 @@ details-disclosure > details {
 }
 
 
-.jdgm-all-reviews-rating {
-  margin-left: 10px !important;
-}
-
-
-
 @media screen and (min-width: 750px) {
   .collection__gray {
     padding-top: 56px !important;
@@ -3183,4 +3177,8 @@ details-disclosure > details {
 .jdgm-carousel--vertical-theme .jdgm-carousel-item__review {
   text-align: left !important;
   height: calc(100% - 2em) !important;
+} 
+.jdgm-all-reviews-rating {
+  font-size: 2.6rem;
+  letter-spacing: .5rem;
 }
