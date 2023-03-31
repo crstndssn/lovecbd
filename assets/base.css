@@ -3138,7 +3138,8 @@ details-disclosure > details {
   width: 100%;
   border-radius: 10px;
   border:#FD3D67 2px solid;
-  color: #FD3D67;
+  background-color: #FD3D67;
+  color: #fff;
 }
 
 .month__product {
@@ -3210,4 +3211,33 @@ details-disclosure > details {
 }
 .jdgm-carousel-item__review-body p {
   font-weight: 200 !important;
+}
+
+
+/* contact fields */
+
+.contact__fields  input {
+  border: #fd3d678f 1px solid;
+}
+.contact__fields  input:focus {
+  border: #fd3d678f 1px solid;
+}
+
+#ContactForm-phone {
+  border: #fd3d678f 1px solid;
+}
+#ContactForm-phone:focus {
+  border: #fd3d678f 1px solid;
+}
+
+#ContactForm-body {
+  border: #fd3d678f 1px solid;
+}
+
+#ContactForm-body:focus {
+  border: #fd3d678f 1px solid;
+}
+
+.contact {
+  margin-bottom: 150px !important;
 }
