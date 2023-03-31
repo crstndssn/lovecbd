@@ -54,7 +54,7 @@
         "collection-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "creams-1"
+            "collection": "bodycare"
           }
         },
         "76e53892-f1c2-46da-8463-e4aa593321fb": {
@@ -66,25 +66,25 @@
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tinctures"
-          }
-        },
-        "collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "serum"
+            "collection": "cbd-oil"
           }
         },
         "25d7edb0-13ea-45af-8626-3be3351da301": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vapes"
+            "collection": "vape-1"
+          }
+        },
+        "collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hemp-flower-1"
           }
         },
         "4c312c3a-4800-4881-b12b-65a2997fb4cb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bundles"
+            "collection": "accessories"
           }
         }
       },
@@ -92,8 +92,8 @@
         "collection-0",
         "76e53892-f1c2-46da-8463-e4aa593321fb",
         "collection-1",
-        "collection-2",
         "25d7edb0-13ea-45af-8626-3be3351da301",
+        "collection-2",
         "4c312c3a-4800-4881-b12b-65a2997fb4cb"
       ],
       "custom_css": [
