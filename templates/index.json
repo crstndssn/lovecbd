@@ -54,7 +54,7 @@
         "collection-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "creams-1"
+            "collection": "bodycare"
           }
         },
         "76e53892-f1c2-46da-8463-e4aa593321fb": {
@@ -66,25 +66,25 @@
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tinctures"
-          }
-        },
-        "collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "serum"
+            "collection": "cbd-oil"
           }
         },
         "25d7edb0-13ea-45af-8626-3be3351da301": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vapes"
+            "collection": "vape-1"
+          }
+        },
+        "collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hemp-flower-1"
           }
         },
         "4c312c3a-4800-4881-b12b-65a2997fb4cb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bundles"
+            "collection": "accessories"
           }
         }
       },
@@ -92,8 +92,8 @@
         "collection-0",
         "76e53892-f1c2-46da-8463-e4aa593321fb",
         "collection-1",
-        "collection-2",
         "25d7edb0-13ea-45af-8626-3be3351da301",
+        "collection-2",
         "4c312c3a-4800-4881-b12b-65a2997fb4cb"
       ],
       "custom_css": [
@@ -175,48 +175,6 @@
         "padding_bottom": 52
       }
     },
-    "collage": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "product-0": {
-          "type": "product",
-          "settings": {
-            "product": "vape",
-            "second_image": false
-          }
-        },
-        "product-1": {
-          "type": "product",
-          "settings": {
-            "product": "koko-nuggs-birthday-cake",
-            "second_image": true
-          }
-        },
-        "product-2": {
-          "type": "product",
-          "settings": {
-            "product": "koko-gummies",
-            "second_image": true
-          }
-        }
-      },
-      "block_order": [
-        "product-0",
-        "product-1",
-        "product-2"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 60,
-        "padding_bottom": 16
-      }
-    },
     "08163fc4-6081-4623-b43e-5f8e1dd7f3fe": {
       "type": "featured-product",
       "blocks": {
@@ -290,6 +248,47 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "product-0": {
+          "type": "product",
+          "settings": {
+            "product": "vape",
+            "second_image": false
+          }
+        },
+        "product-1": {
+          "type": "product",
+          "settings": {
+            "product": "koko-nuggs-birthday-cake",
+            "second_image": true
+          }
+        },
+        "product-2": {
+          "type": "product",
+          "settings": {
+            "product": "koko-gummies",
+            "second_image": true
+          }
+        }
+      },
+      "block_order": [
+        "product-0",
+        "product-1",
+        "product-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 16
       }
     },
     "201c485e-3d7e-4ad8-b393-25f4e6c55030": {
@@ -478,8 +477,8 @@
     "collection-list",
     "featured-collection",
     "rich-text",
-    "collage",
     "08163fc4-6081-4623-b43e-5f8e1dd7f3fe",
+    "collage",
     "201c485e-3d7e-4ad8-b393-25f4e6c55030",
     "167905948217aac05f",
     "a3d0c128-0e3e-4e77-b9ae-f44dbd322ce8",
