@@ -3258,9 +3258,9 @@ details-disclosure > details {
 }
 
 .list-menu__item {
-  font-size: 15px;
+  font-size: 17px;
   /* border: #FD3D67 solid 1px; */
-  color: #FD3D67;
+  color: #5F5E63;
   margin: 0 12px;
   border-radius: 10px;
 }
@@ -3272,11 +3272,11 @@ details-disclosure > details {
   margin-bottom: 10px !important;
 }
 
-.list-menu a:hover {
+/* .list-menu a:hover {
   background: #FD3D67;
   color: #FFF;
   text-decoration: none;
-}
+} */
 
 .header__menu-item:hover span {
   text-decoration: none !important;
