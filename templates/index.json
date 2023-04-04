@@ -269,18 +269,17 @@
             "image_padding": false
           }
         },
-        "product-2": {
-          "type": "product",
+        "30d48aee-4ea2-40be-9d81-b1a81ef14e4a": {
+          "type": "collection",
           "settings": {
-            "product": "koko-gummies",
-            "second_image": true
+            "collection": "bundles"
           }
         }
       },
       "block_order": [
         "product-0",
         "b19e9c52-8834-4fb2-8c33-5e088289fd65",
-        "product-2"
+        "30d48aee-4ea2-40be-9d81-b1a81ef14e4a"
       ],
       "settings": {
         "heading": "Build your eco friendly routine",
