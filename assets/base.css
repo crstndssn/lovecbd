@@ -3288,3 +3288,7 @@ details-disclosure > details {
   text-underline-offset: 0.3rem;
   color: #FD3D67 !important;
 }
+
+.header__active-menu-item:hover {
+  color: #fff !important;
+}
