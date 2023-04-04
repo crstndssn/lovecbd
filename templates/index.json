@@ -260,13 +260,6 @@
             "second_image": false
           }
         },
-        "product-2": {
-          "type": "product",
-          "settings": {
-            "product": "koko-gummies",
-            "second_image": true
-          }
-        },
         "b19e9c52-8834-4fb2-8c33-5e088289fd65": {
           "type": "video",
           "settings": {
@@ -275,12 +268,19 @@
             "description": "Describe the video",
             "image_padding": false
           }
+        },
+        "product-2": {
+          "type": "product",
+          "settings": {
+            "product": "koko-gummies",
+            "second_image": true
+          }
         }
       },
       "block_order": [
         "product-0",
-        "product-2",
-        "b19e9c52-8834-4fb2-8c33-5e088289fd65"
+        "b19e9c52-8834-4fb2-8c33-5e088289fd65",
+        "product-2"
       ],
       "settings": {
         "heading": "Build your eco friendly routine",
