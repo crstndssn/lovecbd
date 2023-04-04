@@ -282,14 +282,14 @@
         "30d48aee-4ea2-40be-9d81-b1a81ef14e4a"
       ],
       "settings": {
-        "heading": "Build your eco friendly routine",
+        "heading": "<p>Get to know our <strong>bundles<\/strong><\/p>",
         "heading_size": "h2",
         "desktop_layout": "right",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 60,
-        "padding_bottom": 80
+        "padding_bottom": 92
       }
     },
     "201c485e-3d7e-4ad8-b393-25f4e6c55030": {
