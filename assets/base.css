@@ -3276,7 +3276,7 @@ details-disclosure > details {
   background: #FD3D67;
   color: #FFF;
   text-decoration: none;
-  transition: all ease .3s;
+  transition: all ease .1s;
 }
 
 .header__menu-item:hover span {
