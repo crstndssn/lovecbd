@@ -3330,3 +3330,8 @@ details-disclosure > details {
   border: none !important;
   box-shadow: none;
 }
+
+form a {
+  width: 100% !important;
+  text-align: center;
+}
