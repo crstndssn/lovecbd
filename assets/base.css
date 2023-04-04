@@ -3292,3 +3292,13 @@ details-disclosure > details {
 .header__active-menu-item:hover {
   color: #fff !important;
 }
+
+.collage-wrapper-title {
+  text-align: center;
+  margin-bottom: 6rem !important;
+}
+
+.collage-wrapper-title strong {
+  color: #9747FF;
+  font-weight: 400;
+}
