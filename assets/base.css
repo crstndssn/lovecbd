@@ -3302,3 +3302,31 @@ details-disclosure > details {
   color: #9747FF;
   font-weight: 400;
 }
+
+.customer button {
+  background-color: #FD3D67;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.customer button:hover {
+  box-shadow: none !important;
+  border: none;
+  --border-opacity: none !important;
+}
+
+.customer input:hover {
+  box-shadow: none !important;
+  border: 1px solid #FD3D67;
+}
+
+.customer button::before {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.customer button::after {
+  border: none !important;
+  box-shadow: none;
+}
