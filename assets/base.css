@@ -3269,14 +3269,15 @@ details-disclosure > details {
   list-style: none;
   padding: 0;
   margin-top: 20px !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 8px !important;
 }
 
-/* .list-menu a:hover {
+.list-menu a:hover {
   background: #FD3D67;
   color: #FFF;
   text-decoration: none;
-} */
+  transition: all ease .3s;
+}
 
 .header__menu-item:hover span {
   text-decoration: none !important;
