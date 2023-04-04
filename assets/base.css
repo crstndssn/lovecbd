@@ -3284,8 +3284,6 @@ details-disclosure > details {
 }
 
 .header__active-menu-item {
-  transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
   text-decoration: none !important;
   text-underline-offset: 0.3rem;
   color: #FD3D67 !important;
