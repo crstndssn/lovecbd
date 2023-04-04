@@ -3258,8 +3258,8 @@ details-disclosure > details {
 }
 
 .list-menu__item {
-  font-size: 20px;
-  border: #FD3D67 solid 1px;
+  font-size: 15px;
+  /* border: #FD3D67 solid 1px; */
   color: #FD3D67;
   margin: 0 12px;
   border-radius: 10px;
@@ -3280,4 +3280,12 @@ details-disclosure > details {
 
 .header__menu-item:hover span {
   text-decoration: none !important;
+}
+
+.header__active-menu-item {
+  transition: text-decoration-thickness var(--duration-short) ease;
+  color: rgb(var(--color-foreground));
+  text-decoration: none !important;
+  text-underline-offset: 0.3rem;
+  color: #FD3D67 !important;
 }
