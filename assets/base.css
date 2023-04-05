@@ -3365,3 +3365,17 @@ form a {
   width: 100%;
   text-align: center;
 }
+
+.cart__ctas button {
+  color: #fff !important;
+  background: #FD3D67 !important;
+  box-shadow: none !important;
+}
+
+.cart__ctas button::after {
+  box-shadow: none !important;
+}
+
+.cart__footer-wrapper {
+  margin-bottom: 10rem;
+}
