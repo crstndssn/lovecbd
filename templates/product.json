@@ -75,6 +75,15 @@
             "page": "shipping-conditions"
           }
         },
+        "db55ba98-99e8-4040-ae10-4c84bf5ef6a3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Lab Report",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible-content-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -97,6 +106,7 @@
         "collapsible-content-0",
         "collapsible-content-1",
         "collapsible-content-2",
+        "db55ba98-99e8-4040-ae10-4c84bf5ef6a3",
         "collapsible-content-3"
       ],
       "settings": {
