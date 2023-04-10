@@ -364,59 +364,6 @@
         "padding_bottom": 40
       }
     },
-    "17b31d1a-a400-4115-af7d-ff222ed961a2": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15249996808236__17b31d1a-a400-4115-af7d-ff222ed961a2-16811594900f8153d7-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/koko_2.png",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15249996808236__17b31d1a-a400-4115-af7d-ff222ed961a2-16811594900f8153d7-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15249996808236__17b31d1a-a400-4115-af7d-ff222ed961a2-16811594900f8153d7-0",
-        "template--15249996808236__17b31d1a-a400-4115-af7d-ff222ed961a2-16811594900f8153d7-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "2ef166b8-b50b-4358-ab6a-eba588c1d3fb": {
       "type": "multicolumn",
       "blocks": {
@@ -592,7 +539,6 @@
     "201c485e-3d7e-4ad8-b393-25f4e6c55030",
     "167905948217aac05f",
     "a3d0c128-0e3e-4e77-b9ae-f44dbd322ce8",
-    "17b31d1a-a400-4115-af7d-ff222ed961a2",
     "2ef166b8-b50b-4358-ab6a-eba588c1d3fb",
     "multicolumn",
     "newsletter"
