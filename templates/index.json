@@ -364,63 +364,6 @@
         "padding_bottom": 40
       }
     },
-    "2ef166b8-b50b-4358-ab6a-eba588c1d3fb": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15249996808236__2ef166b8-b50b-4358-ab6a-eba588c1d3fb-1681159640e3683603-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/all-products_1.png",
-            "image__name": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15249996808236__2ef166b8-b50b-4358-ab6a-eba588c1d3fb-1681159640e3683603-1": {
-          "type": "column",
-          "settings": {
-            "image__name": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15249996808236__2ef166b8-b50b-4358-ab6a-eba588c1d3fb-1681159640e3683603-2": {
-          "type": "column",
-          "settings": {
-            "image__name": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15249996808236__2ef166b8-b50b-4358-ab6a-eba588c1d3fb-1681159640e3683603-0",
-        "template--15249996808236__2ef166b8-b50b-4358-ab6a-eba588c1d3fb-1681159640e3683603-1",
-        "template--15249996808236__2ef166b8-b50b-4358-ab6a-eba588c1d3fb-1681159640e3683603-2"
-      ],
-      "settings": {
-        "title": "our brands",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -540,7 +483,6 @@
     "201c485e-3d7e-4ad8-b393-25f4e6c55030",
     "167905948217aac05f",
     "a3d0c128-0e3e-4e77-b9ae-f44dbd322ce8",
-    "2ef166b8-b50b-4358-ab6a-eba588c1d3fb",
     "multicolumn",
     "newsletter"
   ]
