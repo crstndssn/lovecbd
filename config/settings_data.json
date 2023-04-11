@@ -176,13 +176,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "linklist": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Menu",
-              "menu": "main-menu"
-            }
-          },
           "text-0": {
             "type": "text",
             "settings": {
@@ -190,27 +183,33 @@
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           },
-          "image": {
-            "type": "image",
-            "disabled": true,
+          "73dfac1d-d909-4ce8-96cd-20dce36ac846": {
+            "type": "link_list",
             "settings": {
-              "image_width": 200,
-              "alignment": "center"
+              "heading": "Support",
+              "menu": "support"
             }
           },
-          "text-1": {
-            "type": "text",
+          "af4ee528-058d-49e2-9f16-10b9599ce216": {
+            "type": "link_list",
             "settings": {
-              "heading": "Our Promise",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Products",
+              "menu": "menu-category"
+            }
+          },
+          "linklist": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
             }
           }
         },
         "block_order": [
-          "linklist",
           "text-0",
-          "image",
-          "text-1"
+          "73dfac1d-d909-4ce8-96cd-20dce36ac846",
+          "af4ee528-058d-49e2-9f16-10b9599ce216",
+          "linklist"
         ],
         "custom_css": [
           "p,h1,h2,a {color: #fff;}"
