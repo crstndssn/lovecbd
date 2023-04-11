@@ -3379,3 +3379,18 @@ form a {
 .cart__footer-wrapper {
   margin-bottom: 10rem;
 }
+
+.login a {
+  text-decoration: none;
+  color: #eeee;
+}
+
+.cart-count-bubble {
+  background-color: #FD3D67;
+  color: #FFF;
+}
+
+.header__icon span {
+  margin-left: 2px;
+  margin-top: 1px;
+}
