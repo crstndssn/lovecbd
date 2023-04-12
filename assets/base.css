@@ -3389,11 +3389,6 @@ form a {
   color: #FFF;
 }
 
-.header__icon span {
-  margin-left: 2px;
-  margin-top: 1px;
-}
-
 .customer__account {
   box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground),.08);
   border-radius: 20px;
@@ -3402,4 +3397,31 @@ form a {
 
 .customer__account a {
   text-align: center;
+}
+
+.footer-block__details-content a {
+  margin: 0 auto;
+}
+
+.contact__footer svg {
+  width: 30px;
+  height: 30px;
+  margin-right: .5rem;
+}
+
+.contact__footer--item {
+  display: flex;
+  justify-content: start;
+  margin: 1.5rem 0;
+}
+
+
+.contact__footer--image {
+  margin-top: 4rem;
+  width: 100%;
+  height: auto;
+}
+
+.footer__content-bottom {
+  border-top: none !important;
 }
