@@ -3387,6 +3387,13 @@ form a {
 .cart-count-bubble {
   background-color: #FD3D67;
   color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-count-bubble span {
+  margin-left: 1px;
 }
 
 .customer__account {
