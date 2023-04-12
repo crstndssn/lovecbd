@@ -176,13 +176,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "text-0": {
-            "type": "text",
-            "settings": {
-              "heading": "Contact",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          },
           "73dfac1d-d909-4ce8-96cd-20dce36ac846": {
             "type": "link_list",
             "settings": {
@@ -203,13 +196,23 @@
               "heading": "Navigation",
               "menu": "main-menu"
             }
+          },
+          "055c93a6-1856-417e-a754-a2162a20d04e": {
+            "type": "contact",
+            "settings": {
+              "icon": "price_tag",
+              "heading": "Contact",
+              "phone": "+1 420 000 000",
+              "email": "contact@lovecbd.com",
+              "image": "shopify:\/\/shop_images\/visa_1.png"
+            }
           }
         },
         "block_order": [
-          "text-0",
           "73dfac1d-d909-4ce8-96cd-20dce36ac846",
           "af4ee528-058d-49e2-9f16-10b9599ce216",
-          "linklist"
+          "linklist",
+          "055c93a6-1856-417e-a754-a2162a20d04e"
         ],
         "custom_css": [
           "p,h1,h2,a {color: #fff;}"
