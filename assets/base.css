@@ -3418,6 +3418,9 @@ form a {
 
 .contact__footer--image {
   margin-top: 4rem;
+}
+
+.contact__footer--image img {
   width: 100%;
   height: auto;
 }
