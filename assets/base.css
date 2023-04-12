@@ -3363,7 +3363,6 @@ form a {
 
 .customer__header {
   width: 100%;
-  text-align: center;
 }
 
 .cart__ctas button {
@@ -3382,7 +3381,7 @@ form a {
 
 .login a {
   text-decoration: none;
-  color: #eeee;
+  /* color: #eeee; */
 }
 
 .cart-count-bubble {
@@ -3393,4 +3392,14 @@ form a {
 .header__icon span {
   margin-left: 2px;
   margin-top: 1px;
+}
+
+.customer__account {
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground),.08);
+  border-radius: 20px;
+  padding: 1.8rem 2.4rem;
+}
+
+.customer__account a {
+  text-align: center;
 }
