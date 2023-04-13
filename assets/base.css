@@ -3453,11 +3453,9 @@ form a {
   font-weight: 200;
 }
 
-.article-card__excerpt:hover {
-  color:#FD3D67;
-}
 
-.card__heading a:hover {
-  color:#9747FF;
+
+.card__article--blog:hover {
+  color:#FD3D67;
   text-decoration: none !important;
 }
