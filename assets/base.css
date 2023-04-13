@@ -3411,8 +3411,8 @@ form a {
 }
 
 .contact__footer svg {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin-right: .5rem;
 }
 
@@ -3420,11 +3420,12 @@ form a {
   display: flex;
   justify-content: start;
   margin: 1.5rem 0;
+  font-size: 1.4rem;
 }
 
 
 .contact__footer--image {
-  margin-top: 4rem;
+  margin-top: 3.5rem;
 }
 
 .contact__footer--image img {
