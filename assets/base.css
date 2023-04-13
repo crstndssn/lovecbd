@@ -3441,8 +3441,8 @@ form a {
   font-size: 3rem !important;
 }
 
-.card__information {
-  text-align: left !important;
+.blog__posts .article-card  .card__information {
+  text-align: center !important;
   padding: 1.5rem !important;
 }
 
