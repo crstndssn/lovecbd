@@ -3438,7 +3438,7 @@ form a {
 }
 
 .card__heading {
-  font-size: 3rem !important;
+  font-weight: 500;
 }
 
 .blog__posts .article-card  .card__information {
