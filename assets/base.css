@@ -3434,4 +3434,21 @@ form a {
 
 .footer__content-bottom {
   border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.card__heading {
+  font-size: 3rem !important;
+}
+
+.card__information {
+  text-align: left !important;
+  padding: 1.5rem !important;
+}
+
+
+.article-card__excerpt {
+  line-height: 2.5rem;
+  color: #2d2d2d;
+  font-weight: 200;
 }
