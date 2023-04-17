@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "accordion-page",
+      "blocks": {
+        "0006cac6-3e18-409b-a1b2-92480e422943": {
+          "type": "title",
+          "settings": {
+            "title": "Section 1 faq",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "3ff258bd-615b-4303-9481-fe37f8627351": {
+          "type": "title",
+          "settings": {
+            "title": "Section 2 faq",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "5773cb22-f1c7-4e95-afc1-0b62ffdf0dd4": {
+          "type": "title",
+          "settings": {
+            "title": "Section 3",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "bff296da-1ac1-4e21-a877-236f201a0714": {
+          "type": "title",
+          "settings": {
+            "title": "whats cbd?",
+            "description": "<p>lorem iredasfdsf<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0006cac6-3e18-409b-a1b2-92480e422943",
+        "3ff258bd-615b-4303-9481-fe37f8627351",
+        "5773cb22-f1c7-4e95-afc1-0b62ffdf0dd4",
+        "bff296da-1ac1-4e21-a877-236f201a0714"
+      ],
+      "settings": {
+        "heading": "{{ page.title }}"
+      }
+    },
+    "77b7672e-70d5-4216-8e2d-0adce3f46282": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-0",
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-1",
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "77b7672e-70d5-4216-8e2d-0adce3f46282"
+  ]
+}
