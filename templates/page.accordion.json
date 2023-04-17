@@ -39,7 +39,7 @@
         "bff296da-1ac1-4e21-a877-236f201a0714"
       ],
       "settings": {
-        "heading": "FAQ"
+        "heading": "{{ page.title }}"
       }
     },
     "77b7672e-70d5-4216-8e2d-0adce3f46282": {
