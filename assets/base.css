@@ -3279,6 +3279,11 @@ details-disclosure > details {
   transition: all ease .1s;
 }
 
+.list-menu a:hover span {
+  color: #FFF !important;
+
+}
+
 .header__menu-item:hover span {
   text-decoration: none !important;
 }
@@ -3345,7 +3350,7 @@ form a {
   padding: 1.1rem 1.5rem;
   text-decoration: none;
   box-shadow: none !important; 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   color: #FD3D67;
 }
@@ -3355,7 +3360,7 @@ form a {
   padding: 1.1rem 1.5rem;
   text-decoration: none;
   box-shadow: none !important; 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   color: #fff;
   background: #FD3D67;
