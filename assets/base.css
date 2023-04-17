@@ -3469,3 +3469,7 @@ form a {
 .footer__content-top  {
   padding-bottom: 0 !important;
 }
+
+.shopify-policy__container {
+  padding-bottom: 40px;
+}
