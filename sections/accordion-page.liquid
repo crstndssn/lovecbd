@@ -16,12 +16,12 @@
 .container__accordion {
   width: 800px;
   margin: 0 auto;
-  padding-top: 6rem;
   padding-bottom: 12rem;
 }
 
 button {
-  font-family: 'Poppins'
+  font-family: 'Poppins';
+  font-weight: 500;
 }
 
 .container__text {
@@ -37,17 +37,20 @@ button {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
   transition: 0.4s;
   border-radius: 10px;
-  box-shadow: rgba(250, 25);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
   margin: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .active, .accordion:hover {
-  background-color: #ededed;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* background-color: #ededed; */
+  box-shadow: rgb(253 61 103 / 20%) 0px 2px 8px 0px;
+  color: #FD3D67;
 }
 
 .accordion:after {
@@ -56,7 +59,7 @@ button {
   font-weight: 400;
   float: right;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .active:after {
