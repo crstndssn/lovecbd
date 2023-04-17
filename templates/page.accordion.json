@@ -41,9 +41,44 @@
       "settings": {
         "heading": "FAQ"
       }
+    },
+    "77b7672e-70d5-4216-8e2d-0adce3f46282": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-0",
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-1",
+        "template--15264864796716__77b7672e-70d5-4216-8e2d-0adce3f46282-1681755237811e387c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "77b7672e-70d5-4216-8e2d-0adce3f46282"
   ]
 }
