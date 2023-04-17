@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Lab Report",
             "icon": "check_mark",
-            "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0589\/3570\/5644\/files\/koko_2.png?v=1680624735\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0589\/3570\/5644\/files\/koko_2.png?v=1680624735\">name test lab<\/a><\/p>{{ product.metafields.custom.lab_text | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.lab_text | metafield_tag }}<\/p>",
             "page": ""
           }
         },
