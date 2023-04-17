@@ -1,9 +1,9 @@
 <div class="container__accordion">
 
-  <h2 class="container__text">{{ section.settings.heading }}</h2>
+  <h2 class="container__text collection-hero__title">{{ section.settings.heading }}</h2>
 
   {% for block in section.blocks %}
-    <button class="accordion">{{ block.settings.title }}</button>
+    <button class="accordion h4">{{ block.settings.title }}</button>
     <div class="panel">
       <p>{{ block.settings.description }}</p>
     </div>
@@ -21,7 +21,7 @@
 
 button {
   font-family: 'Poppins';
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .container__text {
@@ -37,20 +37,21 @@ button {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 17px;
-  transition: 0.4s;
+  transition: 0.2s;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
   margin: 6px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  letter-spacing: 0;
 }
 
 .active, .accordion:hover {
   /* background-color: #ededed; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  color: #FD3D67;
+  color: #000;
+  font-weight: 500;
 }
 
 .accordion:after {
@@ -59,7 +60,7 @@ button {
   font-weight: 400;
   float: right;
   margin-left: 10px;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .active:after {
