@@ -1,49 +1,58 @@
-<div>
+<div class="container__accordion">
 
-  <h2>Accordion with symbols</h2>
-  <p>In this example we have added a "plus" sign to each button. When the user clicks on the button, the "plus" sign is replaced with a "minus" sign.</p>
-  <button class="accordion">Section 1</button>
-  <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-  
-  <button class="accordion">Section 2</button>
-  <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-  
-  <button class="accordion">Section 3</button>
-  <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
+  <h2 class="container__text">{{ section.settings.heading }}</h2>
+
+  {% for block in section.blocks %}
+    <button class="accordion">{{ block.settings.title }}</button>
+    <div class="panel">
+      <p>{{ block.settings.description }}</p>
+    </div>
+  {% endfor %}
   
 </div>
 
 {%- style -%}  
 
+.container__accordion {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 12rem;
+}
+
+button {
+  font-family: 'Poppins'
+}
+
+.container__text {
+  text-align: center;
+}
+
 .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+  background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: 0.4s;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #e0e0e0;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #777;
-  font-weight: bold;
+  color: #FD3D67;
+  font-weight: 400;
   float: right;
-  margin-left: 5px;
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 .active:after {
@@ -77,3 +86,38 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 {% endjavascript %}
+
+
+{% schema %}
+{
+  "name": "Accordion",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section title",
+      "default": "FAQ"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Quick links",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
