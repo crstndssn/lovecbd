@@ -66,15 +66,6 @@
             "page": ""
           }
         },
-        "collapsible-content-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping",
-            "icon": "truck",
-            "content": "",
-            "page": "shipping-conditions"
-          }
-        },
         "db55ba98-99e8-4040-ae10-4c84bf5ef6a3": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,6 +73,15 @@
             "icon": "check_mark",
             "content": "<p>{{ product.metafields.custom.lab_text | metafield_tag }}<\/p>",
             "page": ""
+          }
+        },
+        "collapsible-content-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "content": "",
+            "page": "shipping-conditions"
           }
         },
         "collapsible-content-3": {
@@ -105,8 +105,8 @@
         "share",
         "collapsible-content-0",
         "collapsible-content-1",
-        "collapsible-content-2",
         "db55ba98-99e8-4040-ae10-4c84bf5ef6a3",
+        "collapsible-content-2",
         "collapsible-content-3"
       ],
       "settings": {
