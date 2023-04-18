@@ -324,8 +324,8 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div class="product__title" {{ block.shopify_attributes }}>
-                <h1>{{ product.title | escape }}</h1>
+              <div class="product__title h2" {{ block.shopify_attributes }}>
+                <h1 class="product__title--small">{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
                     {{ product.title | escape }}
@@ -353,12 +353,20 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
+
+{% comment %} 
+              Concentration {% endcomment %}
+   
+              <p class="metafield"><strong>Concentration:</strong> {{ product.metafields.custom.concentration }}</p>
+         
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
                   {{ product.description }}
                 </div>
               {%- endif -%}
+
+            
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
