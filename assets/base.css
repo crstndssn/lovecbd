@@ -3495,3 +3495,8 @@ form a {
   --border-opacity: none;
   border: none !important;
 }
+
+.collection {
+  background: #fff;
+  padding: 1rem 0;
+}
