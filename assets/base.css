@@ -3498,5 +3498,20 @@ form a {
 
 .collection {
   background: #fff;
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.product-card-wrapper .card__media .media img {
+  height: auto !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  object-position: center !important;
+}
+
+.card__inner {
+  width: 100%;
+  --ratio-percent: 100% !important;
 }
