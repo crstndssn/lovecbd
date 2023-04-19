@@ -28,6 +28,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "product": {
           "type": "product",
