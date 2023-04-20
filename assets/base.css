@@ -3009,8 +3009,8 @@ details-disclosure > details {
   border: 1px solid #9747FF !important;
 }
 
-.collection {
-  background: #F3F3F3;
+.collection__gray {
+  background: #F3F3F3 !important;
 }
 
 .card--card {
@@ -3155,6 +3155,7 @@ details-disclosure > details {
 }
 
 .collection__gray  {
+  background: F3F3F3;
   padding-top: 42px !important;
   padding-bottom: 3px !important;
 }
