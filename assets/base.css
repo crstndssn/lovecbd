@@ -3525,3 +3525,28 @@ form a {
   aspect-ratio: 1 / 1 !important;
   object-position: center !important;
 }
+
+.product__title {
+  text-align: left !important;
+}
+
+
+.button--primary::after {
+  box-shadow: none;
+}
+
+.button:not([disabled]):hover::after {
+  box-shadow: none;
+}
+
+.facets .field__input {
+  border: 1px solid #7777777a;
+  color: #000000;
+}
+.facets .field__label {
+  color: #777777 !important;
+}
+
+.active-facets__button-wrapper {
+  margin-left: 1rem;
+}
