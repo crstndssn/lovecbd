@@ -3505,7 +3505,7 @@ form a {
 
 .product-card-wrapper .card__media .media img {
   height: auto !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   object-position: center !important;
   width: 100% !important;
   aspect-ratio: 1 / 1 !important;
@@ -3515,4 +3515,13 @@ form a {
 .card__inner {
   width: 100%;
   --ratio-percent: 100% !important;
+}
+
+.contain__image img {
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  object-position: center !important;
 }
