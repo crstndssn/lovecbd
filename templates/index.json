@@ -323,22 +323,15 @@
     "167905948217aac05f": {
       "type": "apps",
       "blocks": {
-        "388fcab6-b8a1-4b75-8ed8-70ca722e6437": {
+        "9cfab593-a6b1-483f-a2b2-f4c5be92e2dd": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
-        },
-        "c874ae9f-2a77-4307-a8fe-0e1e865b836f": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "388fcab6-b8a1-4b75-8ed8-70ca722e6437",
-        "c874ae9f-2a77-4307-a8fe-0e1e865b836f"
+        "9cfab593-a6b1-483f-a2b2-f4c5be92e2dd"
       ],
       "settings": {
         "include_margins": true
