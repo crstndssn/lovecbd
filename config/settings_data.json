@@ -187,7 +187,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Products",
-              "menu": "menu-category"
+              "menu": "category-menu"
             }
           },
           "linklist": {
