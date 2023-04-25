@@ -3550,3 +3550,8 @@ form a {
 .active-facets__button-wrapper {
   margin-left: 1rem;
 }
+
+
+.tag__name {
+  text-transform: capitalize;
+}
