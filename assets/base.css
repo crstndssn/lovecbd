@@ -3551,7 +3551,10 @@ form a {
   margin-left: 1rem;
 }
 
-
 .tag__name {
   text-transform: capitalize;
+}
+
+.facets__padding {
+  padding: 1.5rem 2rem !important;
 }
