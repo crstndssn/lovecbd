@@ -3518,12 +3518,16 @@ form a {
 }
 
 .contain__image img {
-  height: auto !important;
-  object-fit: cover !important;
-  object-position: center !important;
+  height: 100% !important;
+  object-fit: contain !important;
   width: 100% !important;
   aspect-ratio: 1 / 1 !important;
-  object-position: center !important;
+  object-position: top !important;
+}
+
+.card__inner {
+  width: 100%;
+  --ratio-percent: 60% !important;
 }
 
 .product__title {
