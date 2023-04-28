@@ -3525,7 +3525,7 @@ form a {
   object-position: top !important;
 }
 
-.card__inner {
+.contains-card--collection .card__inner {
   width: 100%;
   --ratio-percent: 60% !important;
 }
@@ -3561,4 +3561,4 @@ form a {
 
 .facets__padding {
   padding: 1.5rem 2rem !important;
-}
+} 
