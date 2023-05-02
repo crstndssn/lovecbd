@@ -3562,3 +3562,9 @@ form a {
 .facets__padding {
   padding: 1.5rem 2rem !important;
 } 
+
+.link__category {
+  color: #777777;
+  text-align: left;
+  text-decoration: none;
+}
