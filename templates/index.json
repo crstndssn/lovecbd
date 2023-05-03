@@ -1,9 +1,5 @@
 {
   "sections": {
-    "pop-up": {
-      "type": "pop-up",
-      "blocks": {}
-    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -472,7 +468,6 @@
     }
   },
   "order": [
-    "pop-up",
     "image-with-text",
     "collection-list",
     "featured-collection",
