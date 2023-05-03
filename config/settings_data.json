@@ -460,6 +460,11 @@
             "padding_bottom": 20
           }
         },
+        "popup": {
+          "type": "pop-up",
+          "settings": {
+          }
+        },
         "footer": {
           "type": "footer",
           "blocks": {

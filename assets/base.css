@@ -3512,10 +3512,16 @@ form a {
   object-position: center !important;
 }
 
-/* .card__inner {
+.card__inner {
   width: 100%;
   --ratio-percent: 100% !important;
-} */
+}
+
+.blog
+.card__inner {
+  width: 100%;
+  --ratio-percent: 60% !important;
+}
 
 .contain__image img {
   height: 100% !important;
