@@ -1,10 +1,10 @@
 {% style %}
   
   /* The Modal (background) */
-  .modal {
+  .age-overlay {
+    display: none;
     position: fixed;
     z-index: 10;
-    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
@@ -15,7 +15,7 @@
   }
   
   /* Modal Content */
-  .modal-content {
+  .age-modal {
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -59,9 +59,9 @@
 
 
 <div>
-  <div id="myModal" class="modal">
+  <div class="age-overlay">
     <!-- Modal content -->
-    <div class="modal-content">
+    <div class="age-modal">
 
       <img src="{{ section.settings.logo | img_url: "master" }}">
 
@@ -69,8 +69,8 @@
       <p>{{ section.settings.subtitle }}</p>
 
       <div class="modal__buttons">
-          <button>I Am Under 18</button>
-          <button class="close">I Am +18</button>
+          <button class="age-btn-no">I Am Under 18</button>
+          <button class="age-btn-yes">I Am +18</button>
       </div>
 
     </div>
@@ -80,32 +80,32 @@
 
 {% javascript %}
 
+  window.onload = function () {
+    var ageOverlay = document.querySelector('.age-overlay');
+    var ageModal = document.querySelector('.age-modal');
+    var ageBtnYes = document.querySelector('.age-btn-yes');
+    var ageBtnNo = document.querySelector('.age-btn-no');
+    var showAgeModal = function () {
+      ageOverlay.style.display = 'flex';
+    }
+    var hideAgeModal = function () {
+      ageOverlay.style.display = 'none';
+    }
+    var confirmAge = function () {
+      sessionStorage.setItem('ageConfirmed', true);
+      hideAgeModal();
+    }
+    var denyAge = function () {
+      window.location.href = 'https://www.google.com/';
+    }
+    setTimeout(showAgeModal, 500); 
+    ageBtnYes.addEventListener('click', confirmAge);
+    ageBtnNo.addEventListener('click', denyAge);
 
-  
-
-  var modal = document.getElementById("myModal");
-  
-  var btn = document.getElementById("myBtn");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks the button, open the modal 
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  // window.onclick = function(event) {
-  //   if (event.target == modal) {
-  //     modal.style.display = "none";
-  //   }
-  // }
+    if (sessionStorage.getItem('ageConfirmed') === 'true') {
+      hideAgeModal();
+    }
+  };
 
 {% endjavascript %}
 
