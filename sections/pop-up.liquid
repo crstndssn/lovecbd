@@ -2,8 +2,8 @@
   
   /* The Modal (background) */
   .age-overlay {
-    display: none;
     position: fixed;
+    display: none;
     z-index: 10;
     left: 0;
     top: 0;
@@ -34,19 +34,23 @@
     margin: 0 !important;
   }
 
+  p {
+    margin-top: 1rem;
+  }
+
   img {
-    width: 80%;
+    width: 100%;
     height: auto; 
   }
 
   .modal__buttons {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
   }
 
-  button {
+  .modal__buttons button {
     background: #fff;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border: #FD3D67 1px solid;
     border-radius: 10px;
     color: #FD3D67;
@@ -58,54 +62,60 @@
 {% endstyle %}
 
 
-<div>
-  <div class="age-overlay">
-    <!-- Modal content -->
-    <div class="age-modal">
+<div class="age-overlay">
+  <!-- Modal content -->
+  <div class="age-modal">
 
-      <img src="{{ section.settings.logo | img_url: "master" }}">
+    <img src="{{ section.settings.logo | img_url: "master" }}">
 
-      <h1>{{ section.settings.title }}</h1>
-      <p>{{ section.settings.subtitle }}</p>
+    <h1>{{ section.settings.title }}</h1>
+    <p>{{ section.settings.subtitle }}</p>
 
-      <div class="modal__buttons">
-          <button class="age-btn-no">I Am Under 18</button>
-          <button class="age-btn-yes">I Am +18</button>
-      </div>
-
+    <div class="modal__buttons">
+      <button class="age-btn-no">I Am Under 18</button>
+      <button class="age-btn-yes">I Am +18</button>
     </div>
-  </div>
 
+  </div>
 </div>
 
 {% javascript %}
 
-  window.onload = function () {
-    var ageOverlay = document.querySelector('.age-overlay');
-    var ageModal = document.querySelector('.age-modal');
-    var ageBtnYes = document.querySelector('.age-btn-yes');
-    var ageBtnNo = document.querySelector('.age-btn-no');
-    var showAgeModal = function () {
+window.onload = function () {
+
+  var ageOverlay = document.querySelector('.age-overlay');
+  var ageModal = document.querySelector('.age-modal');
+  var ageBtnYes = document.querySelector('.age-btn-yes');
+  var ageBtnNo = document.querySelector('.age-btn-no');
+
+  var showAgeModal = function () {
+    if (sessionStorage.getItem('ageConfirmed') === 'true') {
+      ageOverlay.style.display = 'none';
+    } else {
       ageOverlay.style.display = 'flex';
     }
-    var hideAgeModal = function () {
-      ageOverlay.style.display = 'none';
-    }
-    var confirmAge = function () {
-      sessionStorage.setItem('ageConfirmed', true);
-      hideAgeModal();
-    }
-    var denyAge = function () {
-      window.location.href = 'https://www.google.com/';
-    }
-    setTimeout(showAgeModal, 500); 
-    ageBtnYes.addEventListener('click', confirmAge);
-    ageBtnNo.addEventListener('click', denyAge);
+  }
+  var hideAgeModal = function () {
+    ageOverlay.style.display = 'none';
+  }
+  var confirmAge = function () {
+    sessionStorage.setItem('ageConfirmed', true);
+    hideAgeModal();
+  }
+  var denyAge = function () {
+    window.location.href = 'https://www.google.com/';
+  }
 
-    if (sessionStorage.getItem('ageConfirmed') === 'true') {
-      hideAgeModal();
-    }
-  };
+  setTimeout(showAgeModal, 500); 
+  ageBtnYes.addEventListener('click', confirmAge);
+  ageBtnNo.addEventListener('click', denyAge);
+  
+  if (sessionStorage.getItem('ageConfirmed') === 'true') {
+    
+    hideAgeModal();
+  }
+
+}
 
 {% endjavascript %}
 
