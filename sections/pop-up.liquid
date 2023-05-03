@@ -1,3 +1,136 @@
+{% style %}
+  
+  /* The Modal (background) */
+  .modal {
+    position: fixed;
+    z-index: 10;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    backdrop-filter: blur(100px);
+    overflow: hidden;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  h1 {
+    margin: 0 !important;
+  }
+
+  img {
+    width: 80%;
+    height: auto; 
+  }
+
+  .modal__buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  button {
+    background: #fff;
+    padding: 1rem;
+    border: #FD3D67 1px solid;
+    border-radius: 10px;
+    color: #FD3D67;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    cursor: pointer;
+  }
+
+{% endstyle %}
+
+
 <div>
-  <p>eeeeeeeee eeeeee ee</p>
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+
+      <img src="{{ section.settings.logo | img_url: "master" }}">
+
+      <h1>{{ section.settings.title }}</h1>
+      <p>{{ section.settings.subtitle }}</p>
+
+      <div class="modal__buttons">
+          <button>I Am Under 18</button>
+          <button class="close">I Am +18</button>
+      </div>
+
+    </div>
+  </div>
+
 </div>
+
+{% javascript %}
+
+
+  
+
+  var modal = document.getElementById("myModal");
+  
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  // window.onclick = function(event) {
+  //   if (event.target == modal) {
+  //     modal.style.display = "none";
+  //   }
+  // }
+
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Pop up",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Welcome"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Please verify your age to continue"
+    }
+  ]
+}
+{% endschema %}
