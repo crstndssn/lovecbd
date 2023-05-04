@@ -3218,39 +3218,39 @@ details-disclosure > details {
 /* contact fields */
 
 .contact__fields  input {
-  border: #fd3d678f 1px solid;
+  border: #8e8e8e 1px solid;
 }
 .contact__fields  label {
-  color: #FD3D67 !important;
+  color: #8e8e8e !important;
 }
 .contact__fields, .field__label {
-  color: #FD3D67 !important;
+  color: #8e8e8e !important;
 }
 .contact__fields  input:focus {
-  border: #fd3d678f 1px solid;
+  border: #8e8e8e 1px solid;
 }
 
 #ContactForm-phone {
-  border: #fd3d678f 1px solid;
+  border: #8e8e8e 1px solid;
 }
 
 #ContactForm-phone label {
-  color: #FD3D67;
+  color: #8e8e8e;
 }
 #ContactForm-phone:focus {
-  border: #fd3d678f 1px solid;
+  border: #8e8e8e 1px solid;
 }
 
 #ContactForm-body {
-  border: #fd3d678f 1px solid;
+  border: #8e8e8e 1px solid;
 }
 
 #ContactForm-body label {
-  color: #FD3D67;
+  color: #8e8e8e;
 }
 
 #ContactForm-body label {
-  border: #fd3d678f 1px solid;
+  border: #8e8e8e 1px solid;
 }
 
 .contact {
