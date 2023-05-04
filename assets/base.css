@@ -3219,33 +3219,42 @@ details-disclosure > details {
 
 .contact__fields  input {
   border: #8e8e8e 1px solid;
+  font-family: 'Poppins', sans-serif;
 }
 .contact__fields  label {
   color: #8e8e8e !important;
+  font-family: 'Poppins', sans-serif;
 }
 .contact__fields, .field__label {
   color: #8e8e8e !important;
+  font-family: 'Poppins', sans-serif;
 }
 .contact__fields  input:focus {
   border: #8e8e8e 1px solid;
+  font-family: 'Poppins', sans-serif;
 }
 
 #ContactForm-phone {
   border: #8e8e8e 1px solid;
+  font-family: 'Poppins', sans-serif;
 }
 
 #ContactForm-phone label {
   color: #8e8e8e;
+  font-family: 'Poppins', sans-serif;
 }
 #ContactForm-phone:focus {
   border: #8e8e8e 1px solid;
+  font-family: 'Poppins', sans-serif;
 }
 
 #ContactForm-body {
   border: #8e8e8e 1px solid;
+  font-family: 'Poppins', sans-serif;
 }
 
 #ContactForm-body label {
+  font-family: 'Poppins', sans-serif;
   color: #8e8e8e;
 }
 
