@@ -3624,14 +3624,37 @@ justify-content: center;
 }
 
 .newsletter-form {
-  align-items: flex-start;
   margin: 0 auto;
   max-width: 36rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center !important;
 }
 
 .newsletter-form__message {
   color: #fff;
+}
+
+.product-media-modal__content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.blog-articles {
+  margin-top: 3rem; 
+}
+
+.article-template__hero-container {
+  max-width: 100% !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .article-template__hero-container img {
+    width: 100%;
+    height: auto;
+  }
 }
