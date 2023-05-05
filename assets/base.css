@@ -3659,7 +3659,7 @@ justify-content: center;
   height: auto;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (max-width: 990px) {
   .article-template__hero-container {
     max-width: 100% !important;
   }
