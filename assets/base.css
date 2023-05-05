@@ -3652,7 +3652,15 @@ justify-content: center;
   justify-content: center;
 }
 
+
+
 .article-template__hero-container img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 990px) {
+  .article-template__hero-container {
+    max-width: 100% !important;
+  }
 }
