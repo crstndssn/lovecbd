@@ -3646,15 +3646,13 @@ justify-content: center;
 }
 
 .article-template__hero-container {
-  max-width: 100% !important;
+  max-width: 50% !important;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
-@media screen and (max-width: 990px) {
-  .article-template__hero-container img {
-    width: 100%;
-    height: auto;
-  }
+.article-template__hero-container img {
+  width: 100%;
+  height: auto;
 }
