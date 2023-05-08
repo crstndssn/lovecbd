@@ -365,7 +365,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/shioing.png",
-            "image__name": "car",
+            "image__name": "car-pink",
             "title": "Free shipping",
             "text": "",
             "link_label": "",
