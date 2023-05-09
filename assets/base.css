@@ -922,7 +922,7 @@ summary::-webkit-details-marker {
   justify-content: space-between;
   align-items: flex-end;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   flex-wrap: wrap;
 }
 
@@ -3663,6 +3663,19 @@ justify-content: center;
   .article-template__hero-container {
     max-width: 100% !important;
   }
+
+  .product__type {
+    margin-bottom: 0rem !important;
+  }
+
+  .product__type p {
+    margin-bottom: 0rem;
+  }
+
+  .product__title {
+    margin-bottom: 3rem !important;
+  }
+
 }
 
 .product__text.caption-with-letter-spacing, p.metafield {
@@ -3677,3 +3690,16 @@ justify-content: center;
 .drawer__inner-empty a.button:after {
     box-shadow: none;
 }
+
+.rich-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rich-text-images img{
+  width: 100%;
+  height: auto;
+}
+
+
+
