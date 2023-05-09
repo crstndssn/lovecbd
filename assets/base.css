@@ -3659,6 +3659,9 @@ justify-content: center;
   height: auto;
 }
 
+
+
+
 @media screen and (max-width: 990px) {
   .article-template__hero-container {
     max-width: 100% !important;
@@ -3674,6 +3677,11 @@ justify-content: center;
 
   .product__title {
     margin-bottom: 3rem !important;
+  }
+
+  .rich-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
 }
