@@ -3673,3 +3673,7 @@ justify-content: center;
     color: white;
   background-color: #FD3D67;
 }
+
+.drawer__inner-empty a.button:after {
+    box-shadow: none;
+}
