@@ -123,7 +123,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/checkout-lovecbd.png",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#9c2689",
     "checkout_input_background_color_mode": "white",
     "sections": {
