@@ -3668,3 +3668,8 @@ justify-content: center;
 .product__text.caption-with-letter-spacing, p.metafield {
     text-align: left;
 }
+
+.drawer__inner-empty a.button {
+    color: white;
+  background-color: #FD3D67;
+}
