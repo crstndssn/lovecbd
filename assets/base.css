@@ -3664,3 +3664,7 @@ justify-content: center;
     max-width: 100% !important;
   }
 }
+
+.product__text.caption-with-letter-spacing, p.metafield {
+    text-align: left;
+}
