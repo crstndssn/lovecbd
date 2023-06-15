@@ -104,8 +104,8 @@
     <p>{{ section.settings.subtitle }}</p>
 
     <div class="modal__buttons">
-      <button class="age-btn-no">I Am Under 18</button>
-      <button class="age-btn-yes">I Am +18</button>
+      <button class="age-btn-no">I Am Under {{ section.settings.age }}</button>
+      <button class="age-btn-yes">I Am +{{ section.settings.age }}</button>
     </div>
 
   </div>
@@ -172,6 +172,12 @@ window.onload = function () {
       "id": "subtitle",
       "label": "Subtitle",
       "default": "Please verify your age to continue"
+    },
+    {
+      "type": "text",
+      "id": "age",
+      "label": "limit_age",
+      "default": "24"
     }
   ]
 }
