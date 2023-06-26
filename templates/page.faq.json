@@ -30,13 +30,21 @@
             "title": "Shipping",
             "description": "<p>Orders are typically processed and shipped Monday - Wednesday, excluding holidays<strong>.<\/strong> We only ship LoveCBD on those days in order to ensure that the chocolate does not melt in transit. Orders Received after 10am Pacific on Wednesday may not be shipping until the following Monday.<\/p><p>We only offer Priority Mail shipping at this time. We do <strong>NOT<\/strong> offer expedited shipping. Depending on your location, delivery time will be 1-3 days after the order has left the warehouse. Priority shipping begins <strong>once the package has left our warehouse<\/strong>. Shipping does not take into account order processing time which can vary.<\/p><p>For wholesale orders - smaller wholesale orders will also be sent priority mail with 1-3 day delivery. Larger wholesale orders that can be shipped on a pallet can be sent via refrigerated truck and may take up to 5 days in transit.<\/p><p>We ship to all 50 US states, Canada, Mexico, and the United Kingdom.<\/p><p>Please view our brief<a href=\"https:\/\/kokonuggz.com\/pages\/shipping-policy\"> <\/a>“link a Shipping Policy”<\/p>"
           }
+        },
+        "904e509b-e627-47d6-a4ed-552581e768ea": {
+          "type": "title",
+          "settings": {
+            "title": "Wholesale",
+            "description": "<p>We currently export to all 50 US states, Canada, Mexico, and the United Kingdom. We do not have an international export program for any other countries, but will be rolling out the program soon.<\/p><p>For payment, we only accept wholesale orders via credit card, paid prior to shipping at this time. We are working on an ACH\/Bank Transfer option coming soon. <\/p><p>When submitting a wholesale request, please send some proof of a business (resale tax id, location of shop, website, etc). We will also need a copy of your valid resale or business license.<\/p>"
+          }
         }
       },
       "block_order": [
         "0006cac6-3e18-409b-a1b2-92480e422943",
         "3ff258bd-615b-4303-9481-fe37f8627351",
         "5773cb22-f1c7-4e95-afc1-0b62ffdf0dd4",
-        "bff296da-1ac1-4e21-a877-236f201a0714"
+        "bff296da-1ac1-4e21-a877-236f201a0714",
+        "904e509b-e627-47d6-a4ed-552581e768ea"
       ],
       "settings": {
         "heading": "{{ page.title }}"
