@@ -144,31 +144,6 @@
     },
     "rich-text-image": {
       "type": "rich-text-image",
-      "blocks": {
-        "119880cb-7463-47e8-bf9c-8aa0f7978e19": {
-          "type": "image",
-          "settings": {
-            "image_component": "shopify:\/\/shop_images\/koko-edible_3b2b5d62-4005-4488-aadd-1b59008380f3.png"
-          }
-        },
-        "d16b3044-a91c-411e-a706-594867f15584": {
-          "type": "image",
-          "settings": {
-            "image_component": "shopify:\/\/shop_images\/bluegummies.webp"
-          }
-        },
-        "8a4f41ef-acfc-4beb-acb3-00899006316d": {
-          "type": "image",
-          "settings": {
-            "image_component": "shopify:\/\/shop_images\/redgummies.webp"
-          }
-        }
-      },
-      "block_order": [
-        "119880cb-7463-47e8-bf9c-8aa0f7978e19",
-        "d16b3044-a91c-411e-a706-594867f15584",
-        "8a4f41ef-acfc-4beb-acb3-00899006316d"
-      ],
       "custom_css": [
         "h2,p {color: #fff;}"
       ],
