@@ -44,6 +44,13 @@
             "title": "United States Sales Tax",
             "description": "<p>Residents of the state of Florida are subject to sales tax.<\/p>"
           }
+        },
+        "edfca261-214b-4232-8f27-d51b515cc439": {
+          "type": "title",
+          "settings": {
+            "title": "International Customs, Duties, VAT, and Taxes",
+            "description": "<p>Shipments made outside of may be subject to import taxes, customs duties, VAT and fees imposed by the destination country. The recipient of an international shipment may be subject to such import taxes, customs duties, VAT and fees, which are imposed once a shipment reaches the recipient's country. Additional charges for customs clearance must be paid by the recipient; we have no control over these charges and can't predict what they may be. Customs policies vary widely from country to country; you should contact your local customs office for more information. When customs clearance procedures are required, it can cause delays beyond our original delivery estimates.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -52,7 +59,8 @@
         "5773cb22-f1c7-4e95-afc1-0b62ffdf0dd4",
         "bff296da-1ac1-4e21-a877-236f201a0714",
         "904e509b-e627-47d6-a4ed-552581e768ea",
-        "072ed2be-0f0c-40e1-94f2-7aa21966a182"
+        "072ed2be-0f0c-40e1-94f2-7aa21966a182",
+        "edfca261-214b-4232-8f27-d51b515cc439"
       ],
       "settings": {
         "heading": "{{ page.title }}"
