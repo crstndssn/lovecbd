@@ -142,39 +142,6 @@
         "padding_bottom": 4
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Welcome to LoveCBD<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All our CBD products are carefully selected and tested to ensure their purity and potency. We partner with top manufacturers in the industry to bring you a wide range of products, including oils, creams, tinctures, and mu<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "custom_css": [
-        "h2,p {color: #fff;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 88,
-        "padding_bottom": 52
-      }
-    },
     "rich-text-image": {
       "type": "rich-text-image",
       "blocks": {
@@ -512,7 +479,6 @@
     "image-with-text",
     "collection-list",
     "featured-collection",
-    "rich-text",
     "rich-text-image",
     "08163fc4-6081-4623-b43e-5f8e1dd7f3fe",
     "collage",
