@@ -37,6 +37,13 @@
             "title": "Wholesale",
             "description": "<p>We currently export to all 50 US states, Canada, Mexico, and the United Kingdom. We do not have an international export program for any other countries, but will be rolling out the program soon.<\/p><p>For payment, we only accept wholesale orders via credit card, paid prior to shipping at this time. We are working on an ACH\/Bank Transfer option coming soon. <\/p><p>When submitting a wholesale request, please send some proof of a business (resale tax id, location of shop, website, etc). We will also need a copy of your valid resale or business license.<\/p>"
           }
+        },
+        "072ed2be-0f0c-40e1-94f2-7aa21966a182": {
+          "type": "title",
+          "settings": {
+            "title": "United States Sales Tax",
+            "description": "<p>Residents of the state of Florida are subject to sales tax.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -44,7 +51,8 @@
         "3ff258bd-615b-4303-9481-fe37f8627351",
         "5773cb22-f1c7-4e95-afc1-0b62ffdf0dd4",
         "bff296da-1ac1-4e21-a877-236f201a0714",
-        "904e509b-e627-47d6-a4ed-552581e768ea"
+        "904e509b-e627-47d6-a4ed-552581e768ea",
+        "072ed2be-0f0c-40e1-94f2-7aa21966a182"
       ],
       "settings": {
         "heading": "{{ page.title }}"
