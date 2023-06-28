@@ -6,7 +6,7 @@
         "template--15265630060588__33ea4ad2-5cb9-4d0e-b51b-e581934220ee-16879002378b600ecd-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>FAQ<\/h2>",
+            "heading": "<h2><strong>FAQ<\/strong><\/h2>",
             "heading_size": "h1"
           }
         },
