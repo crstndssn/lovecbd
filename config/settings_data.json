@@ -258,7 +258,8 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/lovaCBD-background_1.png",
           "title": "Welcome",
-          "subtitle": "Please verify your age to continue"
+          "subtitle": "Please verify your age to continue",
+          "age": "21"
         }
       }
     },
