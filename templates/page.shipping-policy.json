@@ -1,7 +1,41 @@
 {
   "sections": {
+    "6b6f6c4f-7b55-4e5f-a996-24be105d7eb0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15265630158892__6b6f6c4f-7b55-4e5f-a996-24be105d7eb0-1687958667d21290b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>Shipping Policy<\/strong><\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15265630158892__6b6f6c4f-7b55-4e5f-a996-24be105d7eb0-1687958667d21290b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please take the following into account when placing your order.<\/p><p>At Golden Brands Manufacturing LLC. we take a great deal of pride in our service and products. In order to provide you with the highest quality experience, orders are processed Monday-Wednesday (excluding holidays). We ship in this manner due to the perishable nature of the product, as LoveCBD may melt during shipping in weather exceeding 85 degrees.<\/p><p>During warmer weather LoveCBD are packed in triple layer liners with cold packs and are properly marked as fragile. While all orders are packed this way, we do not want your order sitting in a warehouse exposed to heat over a weekend.<\/p><p><strong>Additional Notes:<\/strong><\/p><p>-Orders placed after 9am (PT) may not be processed until the next business day.<\/p><p>-Orders placed after 10am (PT) on Wednesday may not be processed until the following Monday*.<\/p><p>-Orders received Thursday-Sunday will be processed Monday*.<\/p><p>-All provided shipping times are estimated, and begin once your order leaves our facility.<\/p><p>-<em><strong>USPS Priority<\/strong><\/em> is a 1-3 day service. Delivery varies based on the order date, time and USPS handling.<\/p><p>-<em><strong>USPS Priority International Service<\/strong><\/em> is a 6-10 day service. Delivery time may vary based on the order date, time and USPS & customs handling. <strong>Recipient is responsible for duties and taxes that are assessed by the country.<\/strong><\/p><p>-Tracking is provided on all orders. Golden Brands Manufacturing LLC is not liable for lost orders if the tracking number shows that the order was delivered.<\/p><p>-If your order is returned to sender due to an incorrect or invalid address, missed delivery, or refused delivery, you will be refunded for the item less the shipping charge and any additional return shipping fees incurred by us.<\/p><p>Golden Brands Manufacturing LLC cannot be held responsible for damage or delays occurring in transit.<\/p><p> For full Terms of Service “click here Servicio”.<\/p><p><strong>ALL SALES ARE FINAL.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15265630158892__6b6f6c4f-7b55-4e5f-a996-24be105d7eb0-1687958667d21290b9-0",
+        "template--15265630158892__6b6f6c4f-7b55-4e5f-a996-24be105d7eb0-1687958667d21290b9-1"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "accordion-page",
+      "disabled": true,
       "blocks": {
         "0006cac6-3e18-409b-a1b2-92480e422943": {
           "type": "title",
@@ -78,6 +112,7 @@
     }
   },
   "order": [
+    "6b6f6c4f-7b55-4e5f-a996-24be105d7eb0",
     "main",
     "77b7672e-70d5-4216-8e2d-0adce3f46282"
   ]
