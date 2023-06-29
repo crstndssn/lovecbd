@@ -22,7 +22,8 @@
         "template--15265630060588__33ea4ad2-5cb9-4d0e-b51b-e581934220ee-16879002378b600ecd-1"
       ],
       "custom_css": [
-        "h2 {text-align: center; margin-bottom: 40px;}"
+        "h2 {text-align: center; margin-bottom: 40px;}",
+        "p a {color: #5a46a1;}"
       ],
       "settings": {
         "desktop_content_position": "center",
