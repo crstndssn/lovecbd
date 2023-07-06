@@ -2986,10 +2986,18 @@ details-disclosure > details {
   background-color: #FD3D67 !important;
   color: #ffffff !important;
   border-color: #FD3D67 !important;
+  border: 1px solid #FD3D67 !important;
 }
 
 .shopify-payment-button__button {
   border-color: #FD3D67 !important;
+}
+
+.shopify-payment-button__button:hover {
+  box-shadow: none;
+  border: 1px solid #FD3D67 !important;
+  background: #FFF !important;
+  color: #FD3D67 !important;
 }
 
 .color-background-1 {
@@ -3438,6 +3446,9 @@ form a {
   font-size: 1.4rem;
 }
 
+.contact__footer--item a{
+  text-decoration: none;
+}
 
 .contact__footer--image {
   margin-top: 3.5rem;
@@ -3500,10 +3511,35 @@ form a {
   box-shadow: none;
 }
 
+.product-form__submit{
+  box-shadow: none;
+  --border-opacity: none;
+  border: 1px solid #555555 !important;
+  color: #555555;
+  transition: all .1s ease;
+}
+
+.product-form__submit::after{
+  box-shadow: none;
+  --border-opacity: none;
+  border: none;
+}
+
+.product-form__submit::after:hover{
+  box-shadow: none;
+  --border-opacity: none;
+  border: 1px solid #FD3D67;
+}
+
 .product-form__buttons button:hover{
   box-shadow: none;
   --border-opacity: none;
-  border: none !important;
+  border: none;
+}
+
+.product-form__submit:hover{
+  border: 1px solid #FD3D67 !important;
+  color: #FD3D67;
 }
 
 .collection {
@@ -3629,6 +3665,15 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center !important;
+}
+
+
+.newsletter-form .field__input {
+  color: #fff !important;
+}
+.newsletter-form .field__input::placeholder {
+  color: white;
+  background-color: #9747FF;
 }
 
 .newsletter-form__message {
