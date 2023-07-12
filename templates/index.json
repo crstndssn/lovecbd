@@ -144,6 +144,24 @@
     },
     "rich-text-image": {
       "type": "rich-text-image",
+      "blocks": {
+        "f809d212-8089-4510-9261-12ad02a06e1d": {
+          "type": "image",
+          "settings": {
+            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-01_874f6edc-0d9c-4419-a2c3-811bab950596.png"
+          }
+        },
+        "8d89345f-1d4c-4317-9df8-a91c3910c221": {
+          "type": "image",
+          "settings": {
+            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-09_dc597b34-23e0-4d12-be40-cf745ab64787.png"
+          }
+        }
+      },
+      "block_order": [
+        "f809d212-8089-4510-9261-12ad02a06e1d",
+        "8d89345f-1d4c-4317-9df8-a91c3910c221"
+      ],
       "custom_css": [
         "h2,p {color: #fff;}"
       ],
@@ -155,7 +173,7 @@
         "padding_top": 88,
         "padding_bottom": 52,
         "heading": "Our Brands",
-        "text": "<p>All our CBD products are carefully selected and tested to ensure their purity and potency. We partner with top manufacturers in the industry to bring you a wide range of products, including oils, creams, tinctures, and mu<\/p>"
+        "text": ""
       }
     },
     "08163fc4-6081-4623-b43e-5f8e1dd7f3fe": {
