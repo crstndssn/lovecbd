@@ -145,29 +145,29 @@
     "rich-text-image": {
       "type": "rich-text-image",
       "blocks": {
-        "fff215f8-1874-48b9-91e9-a95e1a5706a0": {
+        "34619057-10cb-49ac-a01e-25ecdb13f4b6": {
           "type": "image",
           "settings": {
-            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-01_daf146b7-bcaa-4dd3-b879-9187bdf6efb4.png"
+            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-02_5ff087e3-b6ad-4ab0-bbeb-fff667898d7e.png"
           }
         },
-        "1017d068-52d5-4c38-b800-def094be1957": {
+        "ae8ba8ee-816a-474c-9b1d-be344ca3e695": {
           "type": "image",
           "settings": {
-            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-10_c507923d-a9ad-4af0-a2dd-ae9b57d88338.png"
+            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-09_ab21cbbd-4786-467a-bb4a-7d04979c5e65.png"
           }
         },
-        "f9355d90-b03e-47df-b144-8345b98074da": {
+        "4509674c-a2fd-47bc-a647-74d347926af5": {
           "type": "image",
           "settings": {
-            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-09_1ad2d16c-d0b1-46df-89a1-06af3da0ed93.png"
+            "image_component": "shopify:\/\/shop_images\/Logos_KokoNuggz-10_fccbcdb8-15dd-4275-be08-c4dcb2be43be.png"
           }
         }
       },
       "block_order": [
-        "fff215f8-1874-48b9-91e9-a95e1a5706a0",
-        "1017d068-52d5-4c38-b800-def094be1957",
-        "f9355d90-b03e-47df-b144-8345b98074da"
+        "34619057-10cb-49ac-a01e-25ecdb13f4b6",
+        "ae8ba8ee-816a-474c-9b1d-be344ca3e695",
+        "4509674c-a2fd-47bc-a647-74d347926af5"
       ],
       "custom_css": [
         "h2,p {color: #fff;}"
@@ -177,8 +177,8 @@
         "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 16,
+        "padding_top": 16,
+        "padding_bottom": 0,
         "heading": "Our Brands",
         "text": ""
       }
